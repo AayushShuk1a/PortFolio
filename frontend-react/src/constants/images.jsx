@@ -24,6 +24,7 @@ import about03 from "../assets/about03.png";
 import about04 from "../assets/about04.png";
 
 import profile from "../assets/profile.png";
+import vector from "../assets/vector.png";
 import circle from "../assets/circle.svg";
 import logo from "../assets/logo.png";
 
@@ -34,8 +35,11 @@ import bolt from "../assets/bolt.png";
 import nb from "../assets/nb.png";
 import skype from "../assets/skype.png";
 import spotify from "../assets/spotify.png";
+import cc from "../assets/cpp.png";
 
 export default {
+  cc,
+  vector,
   email,
   mobile,
   api,
