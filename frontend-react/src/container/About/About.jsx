@@ -39,7 +39,7 @@ const About = () => {
 
   return (
     <Fragment>
-      <h2 className="head-text">
+      <h2 className="head-text" style={{ marginTop: 20 }}>
         I know That <span>Good Design </span> <br></br> means{" "}
         <span>Good Business</span>
       </h2>
@@ -57,7 +57,7 @@ const About = () => {
             <h2 className="bold-text" style={{ marginTop: 20 }}>
               {about.title}
             </h2>
-            <p className="p-text" style={{ marginTop: 10 }}>
+            <p className="p-text paragraph" style={{ marginTop: 10 }}>
               {about.description}
             </p>
           </motion.div>
