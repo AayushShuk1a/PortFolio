@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { images } from "../../constants";
 import "./header.scss";
 import { Fragment } from "react";
+import { AppWrapper } from "../../Wrapper";
 
 const Variants = {
   whileInView: {
@@ -73,4 +74,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default AppWrapper(Header, "header");

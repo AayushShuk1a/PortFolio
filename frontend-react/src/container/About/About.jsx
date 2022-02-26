@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { images } from "../../constants";
 import "./about.scss";
 import { urlFor, client } from "../../client";
+import { AppWrapper } from "../../Wrapper";
 
 // const about = [
 //   {
@@ -39,7 +40,7 @@ const About = () => {
 
   return (
     <Fragment>
-      <h2 className="head-text" style={{ marginTop: 20 }}>
+      <h2 className="head-text">
         I know That <span>Good Design </span> <br></br> means{" "}
         <span>Good Business</span>
       </h2>
@@ -67,4 +68,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AppWrapper(About, "about");
