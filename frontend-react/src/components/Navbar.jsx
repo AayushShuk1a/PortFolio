@@ -10,9 +10,10 @@ const Navbar = () => {
     "about",
     "Footer",
     "header",
+    "Works",
     "Skills",
     "Testimonials",
-    "Works",
+    ,
   ];
 
   const [Toggle, setToggle] = useState(false);

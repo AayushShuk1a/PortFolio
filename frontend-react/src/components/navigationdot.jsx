@@ -4,10 +4,10 @@ const Navigationdot = ({ active }) => {
   const NavBarOptions = [
     "header",
     "about",
-
+    "Works",
     "Skills",
     "Testimonials",
-    "Works",
+
     "Footer",
   ];
   return (
