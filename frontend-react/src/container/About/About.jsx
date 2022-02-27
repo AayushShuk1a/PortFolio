@@ -1,10 +1,11 @@
 import React, { Fragment } from "react";
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
-import { images } from "../../constants";
+
 import "./about.scss";
 import { urlFor, client } from "../../client";
 import { AppWrapper } from "../../Wrapper";
+import MotionWrap from "../../Wrapper/MotionWrap";
 
 // const about = [
 //   {
@@ -68,4 +69,8 @@ const About = () => {
   );
 };
 
-export default AppWrapper(About, "about");
+export default AppWrapper(
+  MotionWrap(About, "app__about"),
+  "about",
+  "app__whitebg"
+);

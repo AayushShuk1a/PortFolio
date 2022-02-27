@@ -4,6 +4,7 @@ import { AiFillEye, AiFillGithub } from "react-icons/ai";
 import { animate, motion } from "framer-motion";
 import "./works.scss";
 import AppWrapper from "../../Wrapper/AppWrapper";
+import MotionWrap from "../../Wrapper/MotionWrap";
 import { urlFor, client } from "../../client";
 import { useEffect } from "react";
 const Works = () => {
@@ -116,4 +117,8 @@ const Works = () => {
   );
 };
 
-export default AppWrapper(Works, "Works");
+export default AppWrapper(
+  MotionWrap(Works, "app__works"),
+  "Works",
+  "app__primarybg"
+);
