@@ -1,15 +1,7 @@
 import React from "react";
 
 const Navigationdot = ({ active }) => {
-  const NavBarOptions = [
-    "header",
-    "about",
-    "Works",
-    "Skills",
-    "Testimonials",
-
-    "Footer",
-  ];
+  const NavBarOptions = ["header", "about", "Works", "Skills", "Footer"];
   return (
     <div className="app__navigation">
       {NavBarOptions.map((item) => (
