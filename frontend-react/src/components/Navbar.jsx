@@ -7,11 +7,11 @@ import { useState } from "react";
 
 const Navbar = () => {
   const NavBarOptions = [
-    "about",
-    "Footer",
     "header",
+    "about",
     "Works",
     "Skills",
+    "Footer",
     "Testimonials",
     ,
   ];
