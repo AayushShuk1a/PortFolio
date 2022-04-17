@@ -58,7 +58,7 @@ const Works = () => {
         transition={{ duration: 0.5, delayChildren: 0.5 }}
         className="app__work-portfolio"
       >
-        {FilterWorks.map((works, index) => (
+        {FilterWorks.reverse().map((works, index) => (
           <div className="app__work-item app__flex" key={index}>
             <div className="app__work-img app__flex">
               <img src={urlFor(works.imgUrl)} alt={works.name}></img>
