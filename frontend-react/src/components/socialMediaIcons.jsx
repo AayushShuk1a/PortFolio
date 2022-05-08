@@ -15,7 +15,7 @@ const SocialMediaIcons = () => {
         </a>
       </div>
       <div>
-        <a href="https://github.com/Aayushshukla007">
+        <a href="https://github.com/AayushShuk1a">
           <BsGithub />
         </a>
       </div>
